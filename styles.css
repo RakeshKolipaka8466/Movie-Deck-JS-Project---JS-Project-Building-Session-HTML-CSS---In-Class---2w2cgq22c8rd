@@ -7,7 +7,7 @@ body{
     
 }
 .header{
-    background-color: black;
+    background-color: rgb(231, 16, 16);
     color:whitesmoke;
 }
 .header a{
@@ -26,22 +26,22 @@ body{
     
 }
 .searchBar input{
-    height:28px;
+    height:30px;
     width:25%;
-    border-radius: 20px;
-    font-size: 16px;
+    border-radius: 15px;
+    font-size: 18px;
     font-weight: 400;
     padding-left: 20px;
-    border:1px solid black;
+    border:1px solid rgb(13, 216, 40);
     
 }
 .searchBar button{
-    background-color: rgb(134, 130, 130);
+    background-color: rgb(235, 30, 156);
     color:white;
     height:30px;
     border: none;
     width:80px;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 16px;
     cursor: pointer;
 
@@ -55,7 +55,7 @@ body{
 .sortBtn button{
     height:30px;
     padding:5px 15px;
-    background-color: rgb(150, 146, 146);
+    background-color: rgb(165, 221, 9);
     color: rgb(235, 229, 229);
     border: none;
     border-radius: 30px;
@@ -68,7 +68,7 @@ body{
     margin:10px auto;
     display: flex;
     justify-content: flex-start;
-    gap:10px;
+    gap:15px;
 
 }
 .tabBtn button{
@@ -116,7 +116,7 @@ body{
   transition: 0.7s;
 }
 .movieImage{
-    height:200px;
+    height:180px;
     width:100%;
     
 }
@@ -156,10 +156,12 @@ body{
 .footer{
     margin-top: 10px;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #da179f;
+    color: rgb(228, 26, 26);
     height:35px;
     padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
 }
 .paginationBtn{
     margin-top: 10px;
